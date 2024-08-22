@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list_menu{
+    @apply items-center flex list-none text-2xl font-leng mr-6 sm:mr-14 md:mr-12 lg:mr-20 xl:mr-32;
+}
+
+.footer1{
+    width: 100%;
+    height: auto;
+}
+
+.shadowfooter{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.451);
+    
+}
+
+.footer1:hover .shadowfooter{
+    z-index: 30;
+}
+
+
+
